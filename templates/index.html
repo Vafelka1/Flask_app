@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Airplan ML model</title>
+
+</head>
+
+<body>
+ <center>
+	<h1>Airplan ML model</h1>
+
+    <form action="{{ url_for('predict')}}" method="post" enctype="multipart/form-data">
+    	<input name="file" type="file" >
+        <button type="submit"><b>Отправить</b></button>
+    </form>
+
+ </center>
+
+</body>
+</html>

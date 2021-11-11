@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction</title>
+
+</head>
+
+<body>
+ <center>
+	<h1>Airplan ML model</h1>
+
+   <h2>Уменьшеная копия изображения</h2>
+   <img src="{{ url_for('static', filename='source_image.jpg') }}">
+   <br>
+   <h2>Маска</h2>
+   <img src="{{ url_for('static', filename='mask.png') }}">
+   <br>
+   <h2>Маска на исходном изображении</h2>
+   <img src="{{ url_for('static', filename='image_mask.jpg') }}">
+
+
+ </center>
+
+
+</body>
+</html>
