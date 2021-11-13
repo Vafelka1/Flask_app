@@ -1,5 +1,4 @@
-application: temp
-version: 1
 runtime: python38
 api_version: 1
+threadsafe: true
 
