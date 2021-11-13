@@ -1,0 +1,4 @@
+flask
+Pillow
+tensorflow
+numpy
